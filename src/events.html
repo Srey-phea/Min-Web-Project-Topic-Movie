@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link href="./output.css" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Optional JavaScript for Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</head>
+<body class="bg-black">
+  <!-- section 1 -->
+  <section>
+    <nav class="flex items-center justify-between px-4 py-4 bg-black md:px-10">
+        <!-- Logo -->
+        <div class="flex-shrink-0 font-bold">
+            <span class="text-pink-500 text-4xl mb-5">SP</span><span class="text-white mb-5 ">watch</span>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-4 lg:space-x-20 text-white md:ml-10 lg:ml-20 ml-40">
+            <a href="#" class="w-[57px] h-[23px] text-center text-white  font-medium font-['Inter']">Home</a>
+            <a href="#" class="w-[57px] h-[23px] text-center text-white  font-medium font-['Inter']">Movies</a>
+            <a href="#" class="w-[57px] h-[23px] text-center text-white  font-medium font-['Inter']">Events</a>
+            <a href="#" class="w-[57px] h-[23px] text-center text-white  font-medium font-['Inter']">Trending</a>
+            <a href="#" class="w-[57px] h-[23px] text-center text-white  font-medium font-['Inter']">About Us</a>
+        </div>
+
+        <!-- Spacer to push the search icon to the center -->
+        <div class="flex-grow"></div>
+        
+        <!-- Search Icon -->
+        <div class="flex-shrink-0 mx-4 md:mr-20 lg:mr-80 w-[40px] h-[40px]">
+            <i class="fa fa-search text-white"></i>
+        </div>
+        
+        <!-- Login and Register Buttons -->
+        <div class="flex-shrink-0 flex space-x-4 md:space-x-6 lg:space-x-10">
+            <button class="bg-blue-800 text-white py-2 px-4 rounded flex items-center space-x-2 hover:bg-blue-600">
+                <span>Login</span>
+                <i class="fa-solid fa-lock"></i>
+            </button>
+            <button class="bg-blue-800 text-white py-2 px-4 rounded flex items-center space-x-2 hover:bg-blue-600">
+                <span>Register</span>
+            </button>
+        </div>
+    </nav>
+    <!-- Image Container -->
+<div class="relative flex justify-start items-center h-[500px]">
+    <img class="w-full h-auto mt-4" src="https://i.pinimg.com/564x/3a/27/04/3a2704e9c1d3df27d204a2462038c4a8.jpg" alt="homepage image">
+
+<!-- About Us Text Section -->
+<div class="absolute inset-0 flex flex-col justify-center items-start text-white p-4 bg-black bg-opacity-50">
+  <p class="text-black font-semibold text-7xl mb-50 mx-auto">Events</p>
+  </div>
+</div>
+</section>
+<!-- section 2  -->
+<section>
+  <div class="w-xl h-1xl px-[15px] py-5 bg-black flex-col justify-center items-center gap-[50px] inline-flex">
+      <div class="h-[405.99px] flex-col justify-center items-start gap-[50px] flex">
+        <div class="w-[267.97px] h-12 relative">
+          <div class="w-[267.97px] h-[33.48px] left-0 top-0 absolute text-center text-white text-[25px] font-extrabold font-['Inter']">Art</div>
+        </div>
+        <div class="w-[1335px] justify-start items-center gap-[30px] inline-flex">
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238px] h-[267px] rounded-[10px]" src="https://i.pinimg.com/564x/e7/47/c5/e747c51fd53acfb3e5fed25f27a084bf.jpg" />
+            <div class="w-[90.93px] h-[17.18px] text-center text-white text-base font-medium font-['Inter']">Art Exhibition 2022</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 rounded-[10px] flex-col justify-center items-center gap-3 inline-flex">
+            <div class="w-[242.15px] h-[302px] relative">
+              <div class="w-[242.15px] h-[302px] px-0.5 pt-1.5 pb-2 left-0 top-0 absolute bg-black rounded-[10px] shadow flex-col justify-start items-center gap-3 inline-flex">
+                <div class="w-[238.15px] h-[257px] rounded-[10px]"></div>
+                <img class="w-60 h-[257px] left-[2px] top-0 absolute rounded-[10px]" src="https://i.pinimg.com/564x/7b/df/9a/7bdf9a1ad47d9530ee9138e990804506.jpg" />
+                <div class="w-[121.24px] text-center text-white text-base font-medium font-['Inter']">Art Show</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-start items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/59/24/f4/5924f46249557d728e1f7fcf6800720f.jpg" />
+            <div class="w-[92.01px] text-center text-white text-base font-medium font-['Inter']">Modern Art</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-start items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/d8/ac/d5/d8acd5d4980eba86d9cbbd447b219966.jpg" />
+            <div class="w-[90.93px] h-[17.18px] text-center text-white text-base font-medium font-['Inter']">Art Education Training</div>
+            <div class="w-[238.15px] h-[257px] rounded-[10px]"></div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/95/b6/b6/95b6b6bc1a3a5eb3dcc94521e91dbfc0.jpg" />
+            <div class="w-[114.75px] text-center text-white text-base font-medium font-['Inter']">Art Class</div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-col justify-center items-start gap-[50px] flex">
+        <div class="text-center text-white text-[25px] font-extrabold font-['Inter'] text-left">Music</div>
+        <div class="justify-start items-start gap-[30px] inline-flex">
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/a6/36/20/a6362085ba94bb0b82ec7fe295473a81.jpg" />
+            <div class=" text-center text-white text-base font-medium font-['Inter']">Music Festival</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 pt-1.5 pb-2 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238px] h-[258px] rounded-[10px]" src="https://i.pinimg.com/564x/3d/78/c7/3d78c7eee4291767cd9e194a1fedcfae.jpg" />
+            <div class="text-center text-white text-base font-medium font-['Inter']">Rock And Rockr</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 py-1.5 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/63/ff/d3/63ffd354f5540460e6741a669a064bd8.jpg" />
+            <div class=" text-center text-white text-base font-medium font-['Inter']">K-pop Music</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 py-1.5 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/76/39/4a/76394aa42596ff7e825bf30f43d47097.jpg" />
+            <div class=" text-center text-white text-base font-medium font-['Inter']">Music Party</div>
+          </div>
+          <div class="w-[250px] h-[308px] px-0.5 py-1.5 bg-black rounded-[10px] shadow flex-col justify-center items-center gap-3 inline-flex">
+            <img class="w-[238.15px] h-[257px] rounded-[10px]" src="https://i.pinimg.com/564x/a4/17/ec/a417eca1c0ac57139fbed84459f5bfb0.jpg" />
+            <div class="text-center text-white text-base font-medium font-['Inter']">Music Show</div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[238.15px] h-[257px] rounded-[10px]"></div>
+    </div>
+</section>
+<!-- section 3 footer -->
+<section>
+  <footer class="bg-black text-white">
+    <div class="container mx-auto p-4 py-4 lg:py-6">
+      <div class="flex flex-wrap justify-between">
+        <div class="w-full md:w-1/6 mb-4 md:mb-0 ">
+          <span class="text-pink-500 text-4xl">SP</span><span>watch</span>
+          <h2 class="my-1">Enjoy Watching
+            <i class="fa-solid fa-face-smile-beam text-red-600"></i>
+          </h2>
+          <div class="py-2">
+            <i class="fa-brands fa-facebook mx-2"></i>
+            <i class="fa-brands fa-twitter mx-2"></i>
+            <i class="fa-brands fa-square-instagram mx-2"></i>
+          </div>
+        </div>
+        <div class="w-full md:w-1/6 mb-4 md:mb-0">
+          <h2 class="mb-4 text-sm font-semibold uppercase">About Us</h2>
+          <ul class="text-gray-500">
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Team</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Press</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Enjoy Watching</a></li>
+            <li><a href="#" class="hover:text-blue-200">Mission & Vision</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/6 mb-4 md:mb-0">
+          <h2 class="mb-4 text-sm font-semibold uppercase">Movies</h2>
+          <ul class="text-gray-500">
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">New Releases</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Top Rated</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Genres</a></li>
+            <li><a href="#" class="hover:text-blue-200">Upcoming</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/6 mb-4 md:mb-0">
+          <h2 class="mb-4 text-sm font-semibold uppercase">Resources</h2>
+          <ul class="text-gray-500">
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Blog</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">News</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Interviews</a></li>
+            <li><a href="#" class="hover:text-blue-200">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/6 mb-4 md:mb-0">
+          <h2 class="mb-4 text-sm font-semibold uppercase">Community</h2>
+          <ul class="text-gray-500">
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Forums</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Events</a></li>
+            <li class="mb-3"><a href="#" class="hover:text-blue-200">Fan Art</a></li>
+            <li><a href="#" class="hover:text-blue-200">Contests</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/6">
+          <h2 class="mb-4 text-sm font-semibold uppercase">Connect with us</h2>
+          <ul class="text-gray-500">
+            <li class="mb-3"><a href="mailto:info@spmoviewebsite.com" class="hover:text-blue-200">Email: info@spmoviewebsite.com</a></li>
+            <li class="mb-3"><a href="tel:+18005551234" class="hover:text-blue-200">Call: +1-800-555-1234 (9 AM to 9 PM)</a></li>
+            <li><a href="https://t.me/spwatchkh" class="hover:text-blue-200">Telegram: t.me/spwatchkh</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
